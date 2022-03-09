@@ -99,7 +99,7 @@ if __name__ == '__main__':
     config.MODEL.NUM_CLASSES = len(config.DATASET.ALPHABETS)
 
     ocr_model = crnn.get_crnn(config).cuda()
-    checkpoint = torch.load('output/checkpoints/mixed_second_finetune_acc_97P7.pth')
+    checkpoint = torch.load('ocr_model/mixed_second_finetune_acc_97P7.pth')
     if 'state_dict' in checkpoint.keys():
         ocr_model.load_state_dict(checkpoint['state_dict'])
     else:
