@@ -18,7 +18,7 @@ For example:
 > python test.py --input_dir Datasets/test --result_dir results --weights pretrained_models/pretrained_model.pth --gpus 0
 
 ### OCR
-Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open > pp_ocr.py and modify img_ dir and out_dir, and execute it:
+Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open *pp_ocr.py* and modify img_ dir and out_dir, and execute it:
 > python pp_ocr.py
 we use the default model of paddle OCR for character recognitionf
 
