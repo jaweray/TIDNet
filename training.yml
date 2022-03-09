@@ -8,7 +8,7 @@ VERBOSE: True
 
 MODEL:
   MODE: 'Demoire'
-  SESSION: 'RRNet'
+  SESSION: 'TIDNet'
 
 # Optimization arguments.
 OPTIM:
