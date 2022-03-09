@@ -18,8 +18,13 @@ For example:
 > python test.py --input_dir Datasets/test --result_dir results --weights pretrained_models/pretrained_model.pth --gpus 0
 
 ### OCR
+Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open > pp_ocr.py and modify img_ dir and out_dir, and execute it:
+> python pp_ocr.py
+we use the default model of paddle OCR for character recognitionf
 
 ### Evaluate
+Open evaluate_end2end.py and modify img_ dir pred_txt_dirs and gt_txt_dirs, and execute it:
+> python evaluate_end2end.py
 
 ## Train
 Since our article is being reviewed, it is not suitable to publish the training code now. If the paper is accepted, we promise to upload the training code at the first time.
