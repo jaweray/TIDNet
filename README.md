@@ -1,5 +1,6 @@
-# TIDNet Pytorch enviroment
-python 3.8
+# TIDNet Pytorch 
+## Enviroment
+The model is built in PyTorch 1.10.1 and tested on Ubuntu 18.04 environment, using following command to build enviroment:
 > pip install -r requirement.txt
 
 ## Datasets
