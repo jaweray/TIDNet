@@ -87,7 +87,7 @@ def lcs(X, Y):
 
 def compare_txt_and_gt():
 
-    pred_txt_dirs=r'C:\Users\Administrator\Desktop\tt1\txt_moire_pp'
+    pred_txt_dirs=r'C:\Users\Administrator\Desktop\tt1\demoire_label'
     gt_txt_dirs=r'C:\Users\Administrator\Desktop\tt1\label'
 
 
