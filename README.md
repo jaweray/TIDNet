@@ -19,7 +19,9 @@ For example:
 
 ### OCR
 Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open gt_txt_dirs and modify img_ dir and out_dir, and execute it:
+
 > python pp_ocr.py
+
 we use the default model of paddle OCR for character recognitionf
 
 ### Evaluate
