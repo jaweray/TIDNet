@@ -48,8 +48,8 @@ def polygon_crop(img, points):
 
 
 img_ext = ['.jpg', '.JPG', '.png', '.PNG', '.jpeg', '.JPEG']
-img_dir = r'C:\Users\Administrator\Desktop\tt1\wavelet_tidnet_187_final\epoch41\187result_wdnet_charloss41'
-out_dir = r'C:\Users\Administrator\Desktop\tt1\wavelet_tidnet_187_final\epoch41\txt_mix_pp'
+img_dir = r'C:\Users\Administrator\Desktop\tt1\demoire'
+out_dir = r'C:\Users\Administrator\Desktop\tt1\demoire_label'
 inp_files = sorted(os.listdir(img_dir))
 inp_filenames = [os.path.join(img_dir, x) for x in inp_files if os.path.splitext(x)[1] in img_ext]
 txt_filenames = [os.path.join(out_dir, os.path.splitext(x)[0] + '.txt') for x in inp_files if os.path.splitext(x)[1] in img_ext]
