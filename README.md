@@ -15,10 +15,10 @@ You can use the following command to test：
 > python test.py --input_dir TEST_DATA_DIR --result_dir SAVE_PATH --weights PRETRAINED_MODEL --gpus DEVICES_ID
 
 For example:
-> python test.py --input_dir Datasets/test --result_dir results --weights pretrained_models/pretrained_model.pth --gpus 0
+> python test.py --input_dir Datasets/test --result_dir results --weights pretrained_models/pretrained_model.pth --gpus 
 
 ### OCR
-Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open **gt_txt_dirs and modify **img_ dir and out_dir**, and execute it:
+Install [paddle ocr](https://www.paddlepaddle.org.cn/), then open **gt_txt_dirs and modify**.**img_ dir and out_dir**, and execute it:
 
 > python pp_ocr.py
 
