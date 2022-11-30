@@ -4,11 +4,11 @@ The model is built in PyTorch 1.10.1 and tested on Ubuntu 18.04 environment, usi
 > pip install -r requirement.txt
 
 ## Datasets
-- `test`: Contains 112 images. Download [here](https://github.com/jaweray/TIDNet/releases/download/data/pretrained_model.pth)
+- `test`: Contains 112 images. Download [here](https://github.com/jaweray/TIDNet/releases/download/data/test.zip)
 - `train`: Contains 3627 images. The trainning data will be uploaded after the paper is accepted.
 
 ## Test
-We provide a [pre-trained model](https://github.com/jaweray/TIDNet/releases/download/data/test.zip) for testing.
+We provide a [pre-trained model](https://github.com/jaweray/TIDNet/releases/download/data/pretrained_model.pth) for testing.
 
 ### Demoire
 You can use the following command to test：
