@@ -27,4 +27,4 @@ Open evaluate_end2end.py and modify **pred_txt_dirs** and **gt_txt_dirs** to OCR
 > python evaluate_end2end.py
 
 ## Train
-Since our article is being reviewed, it is not suitable to publish the training code now. If the paper is accepted, we promise to upload the training code at the first time.
+> python train.py
